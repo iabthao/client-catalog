@@ -1,0 +1,742 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*home page*/
+/*Body container*/
+#container {
+    height: 100vh;
+    background: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+/*logo resize*/
+
+#logo {
+    height: auto;
+    width: 100%;
+}
+/*header with nav*/
+header {
+    background-color: rgb(242, 193, 100);
+    box-shadow: 4px 4px rgb(113, 113, 113);
+}
+
+/*slide box*/
+.box1 {
+    border: 10px dotted rgb(242, 193, 100);
+    padding: 3em;
+    justify-content: center;
+
+}
+
+.caption1 {
+    padding-top: 0.8em;
+}
+
+/*slide text*/
+.carousel-caption h5 {
+    text-shadow: 3px 3px rgb(113, 113, 113);
+    font-size: 3em;
+    font-family: 'roboto', cursive;
+
+}
+
+/*navigation link*/
+.nav-link {
+
+    font-family: 'roboto', cursive;
+    font-size: 3em;
+    padding: 1em;
+    text-decoration: none;
+    padding-top: 4em;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 5rem;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.carrousel {
+    width: 1500px;
+    margin: auto;
+}
+
+.nav-link a {
+    color: white;
+    font-size: 1em;
+}
+
+.nav-link a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main {
+    margin: 2em 0;
+}
+
+/*item star*/
+.box2 {
+    margin-top: 2em;
+    border: 10px dotted rgb(242, 193, 100);
+    text-align: center;
+
+}
+
+#box2 {
+    width: 1500px;
+}
+
+.row {
+    margin: 2em;
+}
+
+div.row h2 {
+    font-family: 'roboto', cursive;
+    font-size: 2em;
+    color: Frgb(242, 193, 100);
+    text-shadow: 2px 2px rgb(113, 113, 113);
+
+}
+
+div.row p {
+    font-family: 'roboto', cursive;
+    font-size: 1.6em;
+    color: rgb(242, 193, 100)94AD;
+
+
+}
+
+.card {
+    margin: 3em 0;
+}
+
+.c-D {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-body img {
+    height: 25em;
+    width: 25em;
+    text-align: center;
+    padding: 2em;
+    padding-left: 5em;
+}
+
+.modal-body {
+    font-family: 'roboto', cursive;
+    font-size: 1em;
+    color: black;
+    padding: 2em;
+}
+
+.itemslinks:hover {
+    color: black;
+}
+
+button.btn.btn-primary {
+    background-color: rgb(242, 193, 100)294AD;
+    height: 2.5em;
+    width: 6em;
+    font-family: 'roboto', cursive;
+    text-shadow: 3px 2px rgb(113, 113, 113);
+    font-size: 1.5em;
+    background-color: rgb(0, 0, 0);
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 .2rem rgba(0, 90, 90, 0.5)
+}
+
+#box3 {
+    margin-top: 2em;
+    border: 10px dotted rgb(242, 193, 100);
+    margin-bottom: 2em;
+    width: 1500px;
+
+}
+
+.img2 {
+    width: 230px;
+    height: 190px;
+}
+
+#box3 img {
+    height: 390px;
+    width: 500px;
+    margin-bottom: 2em;
+    box-shadow: 3px 3px rgb(206, 206, 206);
+    margin-right: 1em;
+}
+
+.media {
+    text-align: center;
+}
+
+#box3 h1 {
+    font-family: 'roboto', cursive;
+    font-size: 4em;
+    color: rgb(242, 193, 100);
+    margin: 0.5em 0;
+    text-align: center;
+    text-shadow: 2px 2px rgb(113, 113, 113);
+}
+
+div.row p {
+    text-align: center;
+}
+
+.media h2 {
+    font-family: 'roboto', cursive;
+    font-size: 3em;
+    color: rgb(242, 193, 100);
+    margin-top: 2em;
+    text-shadow: 2px 2px rgb(113, 113, 113);
+
+}
+
+.media h3 {
+    font-family: 'roboto', cursive;
+    font-size: 2em;
+    color: rgb(242, 193, 100);
+    margin-top: 1.7em;
+    text-shadow: 2px 2px rgb(113, 113, 113);
+
+}
+
+.media a {
+    color: rgb(242, 193, 100);
+    text-decoration: underline;
+    text-shadow: 2px 2px rgb(113, 113, 113);
+
+}
+
+/*Location*/
+main#box4 {
+    margin-top: 2em;
+    border: 10px dotted rgb(242, 193, 100);
+    width: 60vw;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 3em;
+
+}
+.productBox btn{
+    align-items: center;
+ 
+}
+
+.location img {
+    width: 20vw;
+    height: 20vh;
+    margin: 2em 4em;
+}
+
+.descrip p {
+    font-family: 'roboto', cursive;
+    font-size: 1.9em;
+    color: rgb(242, 193, 100);
+    margin-left: 6em;
+    margin-right: 6em;
+    text-shadow: 2px 2px rgb(113, 113, 113);
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    height: 150px;
+    width: 100vw;
+    background-color: rgb(242, 193, 100);
+    
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    padding-top: 2em;
+    display: inline-block;
+    font-size: 2em;
+    color: white;
+}
+
+footer ul li a {
+    color: white;
+    font-family: 'roboto', cursive;
+    padding-left: 1em;
+    padding-right: 1em;
+  height: auto;
+    width: 100%;
+}
+
+/*menu*/
+.background {
+    padding: 2em;
+    
+
+}
+
+#ourfood {
+    margin-left: 7em;
+
+}
+
+#starProducts1 h1 {
+    font-family: 'roboto', cursive;
+    text-transform: uppercase;
+    color: rgb(242, 193, 100);
+    font-size: 2.5em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.list2 {
+    float: left;
+    border: 9px dotted rgb(238, 151, 151);
+    background-color: white;
+    width: 30%;
+    height: 900px;
+}
+
+.list2 button {
+    display: block;
+    background-color: inherit;
+    color: rgb(242, 193, 100);
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 27px;
+    padding-bottom: 3em;
+
+}
+
+.list2 button:hover {
+    background-color: rgb(221, 207, 218);
+}
+
+.list2 button.active {
+    background-color: rgb(238, 217, 217);
+}
+
+.background {
+    background-image: url("/images/background1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5em;
+}
+
+.prodcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 9px dotted rgb(238, 151, 151);
+    width: 60%;
+    border-left: none;
+    height: 900px;
+    display: none;
+    padding-left: 7em;
+    background-color: white;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footerProducts {
+    margin-top: 30em;
+}
+
+button.buttonDetails {
+    width: 8em;
+    height: 2em;
+    background-color: rgb(242, 193, 100);
+    color: white;
+    margin-left: 15em;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.followingButton {
+    margin-left: 11.5em;
+}
+
+div.imgContain h1 {
+    padding-bottom: 3px;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+div.imgContain p {
+    font-size: 37px;
+}
+
+/*popup button*/
+
+.imgContain {
+    text-align: center;
+    margin: 40px 0 12 px 0;
+    position: relative;
+
+}
+
+.ingredients {
+    font-size: 2em;
+    padding-top: 4px;
+    margin-top: 0;
+    color: black;
+
+}
+
+.asianFood {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+
+.boxButton {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.boxContent {
+    background-color: #fefefe;
+    margin: 4% auto 15% auto;
+    border: 1px dotted #888;
+    width: 30%;
+    height: 70%;
+    padding-bottom: 30px;
+}
+
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+.animate {
+    animation: zoom 0.6s
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+
+
+/*timeline*/
+#timeline {
+    display: flex;
+    background-color: white;
+    padding: 0;
+
+}
+
+#timeline:hover .event1 {
+    width: 25%;
+}
+
+.event1 {
+    transform: translate3d(0, 0, 0);
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    min-height: 900px;
+    color: rgb(242, 193, 100);
+    overflow: hidden;
+    transition: width 0.5s ease;
+    text-shadow: 4px 3px black;
+
+}
+
+.event1:before,
+.event1:after {
+    transform: translate3d(0, 0, 0);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.event1:after {
+    background: rgba(204, 204, 204, 0.85);
+    opacity: 1;
+    transition: opacity 0.5s ease;
+
+}
+
+.event1:before {
+    background: linear-gradient(to bottom, rgba(255, 179, 217, 0) 0%, rgb(82, 82, 82) 85%);
+    z-index: 1;
+    opacity: 0;
+    transform: translate3d(0, 0, 0) translateY(50%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+
+}
+
+.event1:hover {
+    width: 50% !important;
+}
+
+.event1:hover:after {
+    opacity: 0;
+}
+
+.event1:hover:before {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) translateY(0);
+    transition: opacity 1s ease, transform 1s ease 0.25s;
+}
+
+.event1:hover .textInformation {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all O.75s ease 0.5s;
+}
+
+.event1:hover .event1-bg {
+    filter: grayscale(0);
+}
+
+.textInformation {
+    transform: translate3d(0, 0, 0) translateY(25px);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin: 0.1618em;
+    top: 55%;
+    opacity: 0;
+}
+
+.textInformation h1 {
+    font-family: 'roboto', cursive;
+    text-transform: uppercase;
+    color: rgb(242, 193, 100);
+    font-size: 2.5em;
+    font-weight: normal;
+    text-shadow: 4px 3px black;
+
+}
+
+.textInformation p {
+    color: rgb(242, 193, 100);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+    text-shadow: 4px 3px black;
+}
+
+.year {
+    font-family: 'roboto', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1;
+    text-shadow: 4px 3px black;
+
+}
+
+.year p {
+    font-size: 3em;
+    line-height: 0;
+    font-family: 'roboto', cursive;
+}
+
+.event1-bg {
+    transform: translate3d(0, 0, 0);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    transition: filter 0.5s ease;
+    filter: grayscale(100%);
+}
+
+/*newsletter*/
+.box8 {
+    border: 10px dotted rgb(242, 193, 100);
+    ;
+    width: 60vw;
+    margin: 2em;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+.box8 h2 {
+    font-family: 'verdana', cursive;
+    color: rgb(139, 11, 11);
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 2px 2px #8b2d2d;
+
+}
+
+.box8 figcaption {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(242, 193, 100);
+    text-shadow: 2px 2px rgb(113, 113, 113);
+    height: 3em;
+}
+
+.subscribe {
+    color: rgb(242, 193, 100);
+    padding: 1em;
+    text-shadow: 2px 2px rgb(113, 113, 113);
+
+}
+
+.subscribeback {
+    border: 10px dotted rgb(242, 193, 100);
+    padding-top: 4em;
+}
+
+.text1 {
+    padding-top: 2em;
+}
+
+.paragraph2 {
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
+.item1 {
+    justify-content: center;
+
+
+}
+
+/*Contact form*/
+div.box7 {
+    border: 10px dotted rgb(242, 193, 100);
+    width: 70vw;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 4em;
+    margin-top: 4em;
+    padding: 3em;
+}
+
+form label {
+    font-family: 'roboto', cursive;
+    color: grey;
+    font-size: 1.9em;
+    text-align: center;
+
+}
+
+form h2 {
+    font-family: 'roboto', cursive;
+    font-size: 3em;
+    color: black;
+    text-shadow: 2px 2px rgb(113, 113, 113);
+
+}
+
+.form-control {
+    height: 5em;
+
+}
+
+#exampleFormControlTextarea1 {
+    height: 10em;
+}
+
+form button {
+    font-size: 3em;
+
+}
+
+.card-container{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+        }
+        .card-container > div{
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+.card-container img{
+    height: auto;
+    width: 100%;}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1400px;
+    }
+    html{
+        font-size:  0.8rem ;
+    }
+    h1{
+        font-size:  0.8rem ;
+    }
+    p{
+        font-size:  0.8rem ;
+    }
+}

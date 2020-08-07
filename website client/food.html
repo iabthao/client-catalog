@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>food</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+<style>
+button.btn.btn-primary {
+    background-color: rgb(242, 193, 100)294AD;
+    height: 2.5em;
+    width: 6em;
+    font-family: 'roboto', cursive;
+    text-shadow: 3px 2px rgb(113, 113, 113);
+    font-size: 1.5em;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+</style>
+</head>
+
+<body>
+    <!--Body-->
+    <div class="container-fluid" id="container">
+
+        <header class="box6">
+            <!--Nav-->
+            <nav>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"> <img src="images/logo keo.png" alt="logoPic" id="logo"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--Nav items-->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class=" nav-item active nav-link "><a href="index.html">HOME <span
+                                        class="sr-only">(current)</span></a> </li>
+                            <li class=" nav-item active nav-link"><a href="food.html">OUR FOOD</a></li>
+                            <li class=" nav-item active nav-link"><a href="story.html">OUR STORY</a></li>
+                            <li class=" nav-item active nav-link"><a href="newsletter.html">NEWSLETTER</a></li>
+                            <li class=" nav-item active nav-link"><a href="contacts.html">CONTACT US</a></li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </nav>
+        </header>
+        <div class="background">
+            <!--content-->
+            <div class="productBox">
+
+                <div id="ourfood">
+                    <div class="list2">
+                        <button class="itemslinks" onmouseover="openProduct(event, 'desserts')">Thai Dessert</button>
+                        <button class="itemslinks" onmouseover="openProduct(event, 'Appetizers')">Appetizers</button>
+                        <button class="itemslinks" onmouseover="openProduct(event, 'Main')">Main Dishes</button>
+                        <button class="itemslinks" onmouseover="openProduct(event, 'friedrice')">Fried Rice</button>
+                        <button class="itemslinks" onmouseover="openProduct(event, 'Soup')">Soup</button>
+                        <button class="itemslinks" onmouseover="openProduct(event, 'noodle')">Noodle</button>
+                    </div>
+
+
+
+
+                    <div id="desserts" class="prodcontent img-fluid">
+                        <div class="container">
+                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 ">
+                                <!--first item-->
+                                <div class="col">
+                                    <img src="images/crepe1.jpg" alt="crepe" class="asianFood">
+                                    <div class="card-body c-D">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModalCenter">
+                                            Details
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalCenterTitle">Crepes
+                                                        </h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="images/crepe1.jpg" alt="crepe" class="asianFood">
+                                                        <h1 class="ingredients">Thai Crepe</h1>
+                                                        <p class="ingredients"> Lorem ipsum, dolor sit amet consectetur
+                                                            adipisicing elit. Nisi deserunt facilis neque totam
+                                                            voluptatem necessitatibus fuga qui excepturi assumenda. Sunt
+                                                            illo eum sint! Fuga sapiente praesentium ab quia molestiae!
+                                                            Temporibus.</p>
+
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button"
+                                                            class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--first item end here-->
+                                <!--second item start here-->
+
+                                <div class="col">
+                                    <img src="images/coconutball1.jpg" alt="coconut ball" class="asianFood">
+                                    <div class="card-body c-D">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModalCenter1">
+                                            Details
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+                                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalCenterTitle">Coconut
+                                                            Ball
+                                                        </h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="images/coconutball1.jpg" alt="coconut ball"
+                                                            class="asianFood">
+                                                        <h1 class="ingredients">Coconut balls</h1>
+                                                        <p class="ingredients">Lorem ipsum dolor sit amet consectetur
+                                                            adipisicing elit. Ex cum vel ratione sed, rerum quasi
+                                                            suscipit in. Ullam obcaecati ratione sequi culpa. Dicta vero
+                                                            officia eligendi alias tenetur libero pariatur?</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button"
+                                                            class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--second item end here-->
+                                <!--third item start here-->
+                                <div class="col">
+                                    <img src="images/minifruit.png" alt="mini fruits" class="asianFood">
+                                    <div class="card-body c-D">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary d-flex d-md-table mx-auto"
+                                            data-toggle="modal" data-target="#exampleModalCenter2">
+                                            Details
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+                                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalCenterTitle">Lub Chub
+                                                        </h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="images/minifruit.png" alt="mini fruits"
+                                                            class="asianFood">
+                                                        <h1 class="ingredients">Lub Chub</h1>
+                                                        <p class="ingredients"> Lorem ipsum dolor sit amet consectetur,
+                                                            adipisicing elit.
+                                                            Possimus aliquam, dignissimos tempore consequuntur atque
+                                                            soluta earum a placeat
+                                                            eius! Nemo deserunt quod vel, cum numquam adipisci
+                                                            temporibus sint eaque
+                                                            quibusdam?</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button"
+                                                            class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--third item end here-->
+
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div id="noodle" class="prodcontent img-fluid">
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 ">
+                            <!--first item-->
+                            <div class="col">
+                                <img src="images/Curry noddle.jpg" alt="curry noodles" class="asianFood">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter6">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Curry Noodles
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/Curry noddle.jpg" alt="curry noodles"
+                                                        class="asianFood">
+                                                    <h1 class="ingredients">Curry Noodles</h1>
+                                                    <p class="ingredients">Lorem ipsum, dolor sit amet consectetur
+                                                        adipisicing elit.
+                                                        Voluptates voluptatum nemo rerum repudiandae ad ducimus incidunt
+                                                        culpa officia
+                                                        corporis quisquam, aliquam blanditiis placeat enim animi nam
+                                                        quasi quaerat
+                                                        perspiciatis? Assumenda!</p>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button"
+                                                        class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--first item end here-->
+                            <!--second item start here-->
+
+                            <div class="col">
+                                <img src="images/drunken noddle.jpg" alt="chicken noodles" class="asianFood">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter7">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter7" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Drunken Noodles
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/drunken noddle.jpg" alt="chicken noodles"
+                                                        class="asianFood">
+                                                    <h1 class="ingredients">Drunken noodles</h1>
+                                                    <p class="ingredients"> Lorem ipsum dolor sit amet consectetur,
+                                                        adipisicing elit.
+                                                        Officia quisquam dolor laudantium velit, illum deserunt sit
+                                                        dolorem ratione ea
+                                                        consectetur provident animi, sunt maiores eum dolore vitae hic
+                                                        impedit laboriosam.
+                                                    </p>
+                                                    <div class="modal-footer">
+                                                        <button type="button"
+                                                            class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--second item end here-->
+                                <!--third item start here-->
+                                <div class="col">
+                                    <img src="images/Pad cashew.jpg" alt="cashew noodles" class="asianFood">
+                                    <div class="card-body c-D">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary d-flex d-md-table mx-auto"
+                                            data-toggle="modal" data-target="#exampleModalCenter8">
+                                            Details
+                                        </button>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModalCenter8" tabindex="-1" role="dialog"
+                                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalCenterTitle">Cashew Noodles
+                                                        </h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <img src="images/Pad cashew.jpg" alt="cashew noodles"
+                                                            class="asianFood">
+                                                        <h1 class="ingredients">Cashew Noodles</h1>
+                                                        <p class="ingredients"> Lorem ipsum dolor sit amet consectetur
+                                                            adipisicing elit. Ipsa at
+                                                            laudantium eaque expedita asperiores itaque. Vero itaque
+                                                            exercitationem ad
+                                                            aspernatur harum necessitatibus rem, molestias doloremque
+                                                            deleniti praesentium quod
+                                                            sunt. Modi.</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button"
+                                                            class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                            data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--third item end here-->
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+                <div id="Main" class="prodcontent img-fluid">
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 ">
+                            <!--first item-->
+                            <div class="col">
+                                <img src="images/general tso chicken.jpg" alt="chicken" class="asianFood">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter17">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter17" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Chicken
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/general tso chicken.jpg" alt="chicken"
+                                                        class="asianFood">
+                                                    <h1 class="ingredients">General Tso Chicken</h1>
+                                                    <p class="ingredients"> Lorem ipsum dolor sit amet
+                                                        consectetur
+                                                        adipisicing elit. In
+                                                        repudiandae tempora provident praesentium. Et odit
+                                                        reiciendis
+                                                        facilis, alias,
+                                                        tempore sequi aut voluptatem aliquid ad nostrum quos
+                                                        iste magnam
+                                                        assumenda quae!</p>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button"
+                                                        class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--first item end here-->
+                            <!--second item start here-->
+
+                            <div class="col">
+                                <img src="images/pepper beef.jpg" alt="pepper steak" class="asianFood">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter18">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter18" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Pepper
+                                                        Steak
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/pepper beef.jpg" alt="pepper steak"
+                                                        class="asianFood">
+                                                    <h1 class="ingredients">Pepper Steak</h1>
+                                                    <p class="ingredients"> Lorem ipsum dolor sit amet
+                                                        consectetur
+                                                        adipisicing elit. Modi
+                                                        excepturi, corporis exercitationem enim consequuntur,
+                                                        quaerat
+                                                        quasi eveniet autem
+                                                        est minima, illo optio asperiores tenetur magnam fugit
+                                                        ad
+                                                        deleniti eos aspernatur?
+                                                    </p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button"
+                                                        class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--second item end here-->
+                            <!--third item start here-->
+                            <div class="col">
+                                <img src="images/broccoli.jpg" alt="brocolli" class="asianFood">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary d-flex d-md-table mx-auto"
+                                        data-toggle="modal" data-target="#exampleModalCenter19">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter19" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Beef
+                                                        Broccoli
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/broccoli.jpg" alt="brocolli" class="asianFood">
+                                                    <h1 class="ingredients">Beef Broccoli </h1>
+                                                    <p class="ingredients"> Lorem ipsum dolor sit amet
+                                                        consectetur
+                                                        adipisicing elit. Quis
+                                                        animi sapiente porro vero aliquam rem, odio atque magnam
+                                                        alias
+                                                        fugit, inventore quae
+                                                        doloremque corrupti veniam laborum ratione repudiandae
+                                                        voluptatum ipsa?</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button"
+                                                        class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--third item end here-->
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div id="Appetizers" class="prodcontent img-fluid">
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 ">
+                            <!--first item-->
+                            <div class="col">
+                                <img src="images/chicken wings.jpg" alt="chicken" class="asianFood">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter10">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter10" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Chicken
+                                                        Wings
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/chicken wings.jpg" alt="chicken" class="asianFood">
+                                                    <h1 class="ingredients">Chicken wings</h1>
+                                                    <p class="ingredients"> Description: Crispy chicken wings
+                                                        <br>Delicious chiken wings sweet salty.
+                                                        <br>Ingredients:Chicken wings, tamarin sauce, hot peeper
+                                                        <br>
+                                                        Calories:290</p>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button"
+                                                        class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--first item end here-->
+                            <!--second item start here-->
+
+                            <div class="col">
+                                <img src="images/keo salad.jpg" alt="salad" class="asianFood">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter11">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter11" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Keo
+                                                        Salad
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/keo salad.jpg" alt="salad" class="asianFood">
+                                                    <h1 class="ingredients">Salad</h1>
+                                                    <p class="ingredients"> Description: fresh delicious thai
+                                                        salad
+                                                        <br>Fresh and crispy salad with thai vinaigrette
+                                                        <br>Ingredients:rice noddle, carrots, cilantro, spring
+                                                        rolls,
+                                                        vinaigrette<br>
+                                                        Calories:290</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button"
+                                                        class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--second item end here-->
+                            <!--third item start here-->
+                            <div class="col">
+                                <img src="images/squid.webp" alt="squid" class="asianFood">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary d-flex d-md-table mx-auto"
+                                        data-toggle="modal" data-target="#exampleModalCenter12">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter12" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Squid
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/squid.webp" alt="squid" class="asianFood">
+                                                    <h1 class="ingredients">Squid Salad</h1>
+                                                    <p class="ingredients"> Lorem ipsum dolor sit amet
+                                                        consectetur
+                                                        adipisicing elit. Ex,
+                                                        quis at! Cupiditate animi quaerat, laboriosam dolorem,
+                                                        inventore
+                                                        recusandae
+                                                        accusantium reprehenderit quam atque facere impedit ut
+                                                        tenetur
+                                                        praesentium officia
+                                                        adipisci sunt.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button"
+                                                        class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--third item end here-->
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+                <div id="Soup" class="prodcontent img-fluid">
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 ">
+                            <!--first item-->
+                            <div class="col">
+                                <img src="images/pho.png" alt="pho" class="asianFood">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter13">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter13" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Pho
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/pho.png" alt="pho" class="asianFood">
+                                                    <h1 class="ingredients">Pho</h1>
+                                                    <p class="ingredients">Lorem ipsum dolor sit, amet
+                                                        consectetur
+                                                        adipisicing elit. Quo qui
+                                                        magni repellat, fuga unde excepturi ea beatae, impedit
+                                                        assumenda
+                                                        aut animi nihil
+                                                        quos. Culpa adipisci facilis aspernatur animi,
+                                                        cupiditate
+                                                        quaerat.</p>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button"
+                                                        class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--first item end here-->
+                            <!--second item start here-->
+
+                            <div class="col">
+                                <img src="images/pho1.jpg" alt="pho" class="asianFood">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter13">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter13" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Pho
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/pho1.jpg" alt="pho" class="asianFood">
+                                                    <h1 class="ingredients">Pho</h1>
+                                                    <p class="ingredients"> Lorem ipsum dolor sit amet
+                                                        consectetur
+                                                        adipisicing elit. Saepe
+                                                        ex, excepturi enim aspernatur praesentium et pariatur
+                                                        adipisci
+                                                        accusantium dolorem
+                                                        minus nesciunt iure animi dolores. Sit consequuntur
+                                                        iusto id
+                                                        accusamus voluptatibus.
+                                                    </p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button"
+                                                        class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div id="friedrice" class="prodcontent img-fluid">
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 ">
+                            <!--first item-->
+                            <div class="col">
+                                <img src="images/friedRice1.png" alt="fried rice" class="asianFood">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter15">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter15" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Fried
+                                                        Rice
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/friedRice1.png" alt="fried rice" class="asianFood">
+                                                    <h1 class="ingredients">Fried Rice</h1>
+                                                    <p class="ingredients"> Lorem ipsum dolor sit amet
+                                                        consectetur adipisicing elit.
+                                                        Pariatur, odit autem vero fuga deserunt sunt sapiente
+                                                        repellat commodi error.
+                                                        Deleniti esse iure ut temporibus eum quasi dolore,
+                                                        dolorem voluptas nihil.</p>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button"
+                                                        class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--first item end here-->
+                            <!--second item start here-->
+
+                            <div class="col">
+                                <img src="images/fried rice.webp" alt="fried rice" class="asianFood">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter14">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter14" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Fried
+                                                        Rice Beef
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/fried rice.webp" alt="fried rice"
+                                                        class="asianFood">
+                                                    <h1 class="ingredients">Fried Rice</h1>
+                                                    <p class="ingredients"> Lorem ipsum dolor sit amet
+                                                        consectetur adipisicing elit. Dolorum
+                                                        illo nisi voluptas fuga nam vitae! Voluptatum dolores
+                                                        sapiente commodi, temporibus
+                                                        non quis ipsum a dignissimos natus maxime rerum dolore?
+                                                        Fuga.</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button"
+                                                        class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--second item end here-->
+                            <!--third item start here-->
+                            <div class="col">
+                                <img src="images/thai basil.jpg" alt="Basil Rice" class="asianFood">
+                                <div class="card-body c-D">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary d-flex d-md-table mx-auto"
+                                        data-toggle="modal" data-target="#exampleModalCenter16">
+                                        Details
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter16" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Thai
+                                                        Basil
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img src="images/thai basil.jpg" alt="Basil Rice" class="asianFood">
+                                                    <h1 class="ingredients">Basil Rice</h1>
+                                                    <p class="ingredients">Lorem ipsum dolor sit amet
+                                                        consectetur adipisicing elit. Facilis
+                                                        natus fuga porro nisi quam neque quas sunt. Amet neque
+                                                        assumenda, minus voluptatum
+                                                        id aspernatur a voluptate, accusantium ratione ea ab.
+                                                    </p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button"
+                                                        class="btn btn-secondary d-flex d-md-table mx-auto"
+                                                        data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--third item end here-->
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="clearfix"></div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    </div>
+
+    <!--start footer-->
+
+    <footer>
+        <ul>
+            <li><a href="story.html">OUR STORY</a></li>
+            <li>|</li>
+            <li><a href="food.html">OUR FOOD</a></li>
+            <li>|</li>
+            <li><a href="newsletter.html">NEWSLETTER</a></li>
+            <li>|</li>
+            <li><a href="contacts.html">CONTACT US</a></li>
+        </ul>
+    </footer>
+
+    <!--end footer-->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
